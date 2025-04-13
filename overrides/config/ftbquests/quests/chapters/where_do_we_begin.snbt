@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "where_do_we_begin"
+	group: "54C92129FED0A060"
+	id: "1DC8617C5918F545"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "51AC8852C4322A1A"
+			tasks: [
+				{
+					count: 16L
+					id: "789CAA7C6E951690"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "48A1EF268859F81E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51AC8852C4322A1A"]
+			id: "160016CB35CEEF5F"
+			tasks: [{
+				id: "70903514C2E796D0"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["160016CB35CEEF5F"]
+			id: "61C85D4EE0ECE42E"
+			optional: true
+			tasks: [{
+				id: "602CDB7322A35E3C"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["160016CB35CEEF5F"]
+			id: "67B317E6A9CEA60D"
+			tasks: [{
+				id: "44896EFA0DAD372C"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67B317E6A9CEA60D"]
+			id: "1BF396FA18B6416A"
+			tasks: [{
+				id: "571FE44FC88E7AF4"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BF396FA18B6416A"]
+			id: "0CC0EB772BDA09D4"
+			tasks: [{
+				id: "28A416EC3E00D41A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CC0EB772BDA09D4"]
+			id: "457BDAFE96B1A4E5"
+			optional: true
+			tasks: [{
+				id: "7094F84775EED179"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:nuggets/coal)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1BF396FA18B6416A"]
+			id: "62D3939696AA31C7"
+			tasks: [{
+				id: "175DEA66B5786F41"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58D959F1682DB499"]
+			id: "2E7F3D6DFC85B825"
+			tasks: [{
+				id: "5F655047493753BF"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E7F3D6DFC85B825"]
+			id: "55DBA667567BD941"
+			tasks: [{
+				id: "340A0423E458AF68"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62D3939696AA31C7"]
+			id: "58D959F1682DB499"
+			tasks: [{
+				id: "2817CCA5FDFEBE78"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58D959F1682DB499"]
+			id: "569EB0A16BE64797"
+			tasks: [{
+				id: "2ED3BF9012FC60A3"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55DBA667567BD941"]
+			id: "6BC233905C64D723"
+			tasks: [{
+				id: "52B772AF973EE7CE"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BC233905C64D723"]
+			id: "41C80DCF710A22E9"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3646BD19B57DB8FB"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["41C80DCF710A22E9"]
+			id: "4FFB7F5D96891A93"
+			tasks: [{
+				id: "54C055679014A5AB"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.6999999999999997d
+		}
+		{
+			dependencies: ["2CEDD97F9E5238A7"]
+			id: "3C441932206AB513"
+			tasks: [{
+				id: "7A7660D1F941A8FB"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41C80DCF710A22E9"]
+			id: "4640A078894323E3"
+			tasks: [
+				{
+					id: "458A3BC21F8A0DA4"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					id: "478148A9A11C5308"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["109E696C36981931"]
+			id: "0DF19818A82C032F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4F26C46E0DF4F65E"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E7F3D6DFC85B825"]
+			id: "18642ECFEC2B6BFA"
+			tasks: [{
+				id: "3E425B75338B422E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:scrap_diamond_large)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62D3939696AA31C7"]
+			id: "44636B13368CCCFD"
+			tasks: [{
+				id: "09D429457EB0EDF4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_helmet)item(minecraft:iron_chestplate)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4640A078894323E3"]
+			id: "109E696C36981931"
+			tasks: [{
+				id: "249BC07192B93CF9"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"55DBA667567BD941"
+				"4FFB7F5D96891A93"
+			]
+			id: "2CEDD97F9E5238A7"
+			tasks: [{
+				id: "2B2F9DD755A2EFDC"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DF19818A82C032F"]
+			id: "1F71F0637BD2EB91"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				icon: {
+					id: "minecraft:dragon_egg"
+				}
+				id: "7C4F98B8E806D1D5"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47DA1AF165E6E9E2"]
+			id: "52461182BD107A7B"
+			tasks: [{
+				id: "3CCC767F2149945C"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "47DA1AF165E6E9E2"
+			tasks: [
+				{
+					id: "102FCB2DCF6EA0E4"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_nugget)item(create:zinc_nugget))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0003A27EFFCF0033"
+					item: { count: 1, id: "minecraft:andesite" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52461182BD107A7B"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "6BC44C3F82AB9466"
+			tasks: [{
+				id: "486F70EF4BCFBE20"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "5CF8017DC8A94B18"
+			tasks: [{
+				id: "642F0A2CF125941F"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "471640B16C341677"
+			tasks: [{
+				custom_name: "wither"
+				entity: "minecraft:zombie"
+				id: "174F4F9358AD98D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+}

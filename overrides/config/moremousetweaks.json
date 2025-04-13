@@ -1,0 +1,20 @@
+{
+  "options": {
+    "interactionRateServer": 5,
+    "interactionRateClient": 1,
+    "scrollCreativeTabs": true,
+    "quickCrafting": true,
+    "qcOverflowMode": "INVENTORY",
+    "hotbarScope": "HOTBAR",
+    "extraSlotScope": "EXTRA",
+    "alwaysMatchByType": false,
+    "typeMatchTags": [
+      "enchantable/weapon",
+      "enchantable/mining",
+      "enchantable/armor"
+    ],
+    "hotbarMode": "MERGE",
+    "extraSlotMode": "MERGE",
+    "matchByType": false
+  }
+}
