@@ -6,6 +6,215 @@
 	group: "54C92129FED0A060"
 	id: "35735F45599CDD1F"
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4C8F404EE412D596"
+			rewards: [{
+				id: "3570405850CD7E0B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3515F3C0B026FF3B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0F8EDF2033D8004D"
+			rewards: [{
+				id: "4C2F3EC7681046D1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3A29CFD36AB632CE"
+				item: { count: 1, id: "dankstorage:dank_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "334A61BAA92FB67D"
+			rewards: [{
+				id: "514BDBD3D6D42BCF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0ACC8FB9AA2236CF"
+				item: { count: 1, id: "shrink:shrinking_device" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "27CD5F20B1B16E33"
+			rewards: [{
+				id: "6CCFECF18394CF56"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "5A1898B701B2982C"
+					item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+					type: "item"
+				}
+				{
+					id: "5A95246E6D917A29"
+					item: { count: 1, id: "crafting_on_a_stick:loom" }
+					type: "item"
+				}
+				{
+					id: "47393DBF58B2C9FC"
+					item: { count: 1, id: "crafting_on_a_stick:grindstone" }
+					type: "item"
+				}
+				{
+					id: "1E49FD62D5CA116A"
+					item: { count: 1, id: "crafting_on_a_stick:cartography_table" }
+					type: "item"
+				}
+				{
+					id: "66D0676A95ABE16A"
+					item: { count: 1, id: "crafting_on_a_stick:stonecutter" }
+					type: "item"
+				}
+				{
+					id: "5B332C4CBBA6F2CF"
+					item: { count: 1, id: "crafting_on_a_stick:smithing_table" }
+					type: "item"
+				}
+				{
+					id: "20A5709843DCAC20"
+					item: { count: 1, id: "crafting_on_a_stick:anvil" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "4478FF880981E632"
+			rewards: [{
+				id: "05DAC3CC9CAC84C8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "3AEFB0BE2F154172"
+					item: { count: 1, id: "wands:stone_wand" }
+					type: "item"
+				}
+				{
+					id: "159E9F424D07F7AB"
+					item: { count: 1, id: "wands:iron_wand" }
+					type: "item"
+				}
+				{
+					id: "4F71D0109FBAFA4A"
+					item: { count: 1, id: "wands:diamond_wand" }
+					type: "item"
+				}
+				{
+					id: "46812EEFBBFE672F"
+					item: { count: 1, id: "wands:netherite_wand" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "293964761A54C2CF"
+			rewards: [{
+				id: "6B3A022003E02F37"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7F1D026DE473BF0B"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "744ACDF3F8C7FA53"
+			rewards: [{
+				id: "4A483582A8B0C700"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1B9DA2BC94CD31A5"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:all_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "52F0964CB6BD4A94"
+			rewards: [{
+				id: "23B0BB0F2FBCE743"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "7CCB5461890F8279"
+					item: { count: 1, id: "comforts:sleeping_bag_white" }
+					type: "item"
+				}
+				{
+					id: "643F3B6C9A478E5B"
+					item: { count: 1, id: "comforts:hammock_white" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "30DB30A394467596"
+			rewards: [{
+				id: "7A743244D66CD549"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "7EB89322198B018E"
+					item: { count: 1, id: "toms_storage:storage_terminal" }
+					type: "item"
+				}
+				{
+					id: "4AD7DAAA06AA302D"
+					item: { count: 1, id: "toms_storage:crafting_terminal" }
+					type: "item"
+				}
+				{
+					id: "1609862D144A6851"
+					item: { count: 1, id: "toms_storage:wireless_terminal" }
+					type: "item"
+				}
+				{
+					id: "4FE968E421185E9B"
+					item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
 }

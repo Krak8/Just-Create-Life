@@ -27,19 +27,6 @@
 	#.
 	#Whether Deployer can perform sweep attack.
 	deployerSweepAttack = true
-	#.
-	#Whether Crushing Wheel killed entities should drop experience.
-	crushingWheelKillDropXp = true
-	#.
-	#Possibility for Crushing Wheel killed entities drop experience.
-	# Default: 0.30000001192092896
-	# Range: 0.0 ~ 1.0
-	crushingWheelKillDropXpRate = 0.30000001192092896
-	#.
-	#Scale for experience dropped from Crushing Wheel killed entities.
-	# Default: 0.3400000035762787
-	# Range: 0.0 ~ 1.0
-	crushingWheelKillDropXpScale = 0.3400000035762787
 
 		#.
 		#Fine tune the kinetic stats of individual components

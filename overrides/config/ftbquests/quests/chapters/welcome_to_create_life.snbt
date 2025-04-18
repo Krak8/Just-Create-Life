@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_create_life"
+	group: ""
+	icon: {
+		id: "minecraft:calibrated_sculk_sensor"
+	}
+	id: "45A8C40C2EB5281B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2930B53DAE3E96F3"
+		tasks: [{
+			id: "396F84951BCBC0A6"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

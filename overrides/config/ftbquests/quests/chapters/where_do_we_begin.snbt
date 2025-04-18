@@ -5,10 +5,16 @@
 	group: "54C92129FED0A060"
 	id: "1DC8617C5918F545"
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			id: "51AC8852C4322A1A"
+			rewards: [{
+				id: "511885638C4C4B5C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -28,9 +34,14 @@
 		{
 			dependencies: ["51AC8852C4322A1A"]
 			id: "160016CB35CEEF5F"
+			rewards: [{
+				id: "5D1E55195467360B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "70903514C2E796D0"
-				item: { count: 1, id: "minecraft:crafting_table" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -40,6 +51,11 @@
 			dependencies: ["160016CB35CEEF5F"]
 			id: "61C85D4EE0ECE42E"
 			optional: true
+			rewards: [{
+				id: "2E3F108E709D3A78"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "602CDB7322A35E3C"
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
@@ -51,9 +67,14 @@
 		{
 			dependencies: ["160016CB35CEEF5F"]
 			id: "67B317E6A9CEA60D"
+			rewards: [{
+				id: "4AB6452C9E0632CF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "44896EFA0DAD372C"
-				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/mining_tool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -62,9 +83,14 @@
 		{
 			dependencies: ["67B317E6A9CEA60D"]
 			id: "1BF396FA18B6416A"
+			rewards: [{
+				id: "06236F86466760B1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "571FE44FC88E7AF4"
-				item: { count: 1, id: "minecraft:furnace" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/furnaces)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -73,6 +99,11 @@
 		{
 			dependencies: ["1BF396FA18B6416A"]
 			id: "0CC0EB772BDA09D4"
+			rewards: [{
+				id: "3F8CD5A40ACC277B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "28A416EC3E00D41A"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -85,17 +116,27 @@
 			dependencies: ["0CC0EB772BDA09D4"]
 			id: "457BDAFE96B1A4E5"
 			optional: true
+			rewards: [{
+				id: "1F5C297F4B6B79C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "7094F84775EED179"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:nuggets/coal)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1BF396FA18B6416A"]
 			id: "62D3939696AA31C7"
+			rewards: [{
+				id: "30DF4475FA128F48"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "175DEA66B5786F41"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -107,6 +148,11 @@
 		{
 			dependencies: ["58D959F1682DB499"]
 			id: "2E7F3D6DFC85B825"
+			rewards: [{
+				id: "4392964F66F438A8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "5F655047493753BF"
 				item: { count: 1, id: "minecraft:diamond" }
@@ -118,6 +164,11 @@
 		{
 			dependencies: ["2E7F3D6DFC85B825"]
 			id: "55DBA667567BD941"
+			rewards: [{
+				id: "1AC850FAECF7A7BE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "340A0423E458AF68"
 				item: { count: 1, id: "minecraft:diamond_pickaxe" }
@@ -129,6 +180,11 @@
 		{
 			dependencies: ["62D3939696AA31C7"]
 			id: "58D959F1682DB499"
+			rewards: [{
+				id: "253061164E1A532B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "2817CCA5FDFEBE78"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
@@ -140,6 +196,11 @@
 		{
 			dependencies: ["58D959F1682DB499"]
 			id: "569EB0A16BE64797"
+			rewards: [{
+				id: "3B2E194695AD12DD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "2ED3BF9012FC60A3"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -151,6 +212,11 @@
 		{
 			dependencies: ["55DBA667567BD941"]
 			id: "6BC233905C64D723"
+			rewards: [{
+				id: "56317DECEAEED131"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "52B772AF973EE7CE"
 				item: { count: 1, id: "minecraft:obsidian" }
@@ -162,6 +228,11 @@
 		{
 			dependencies: ["6BC233905C64D723"]
 			id: "41C80DCF710A22E9"
+			rewards: [{
+				id: "4F5BCAFA4E728C88"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "3646BD19B57DB8FB"
@@ -173,6 +244,11 @@
 		{
 			dependencies: ["41C80DCF710A22E9"]
 			id: "4FFB7F5D96891A93"
+			rewards: [{
+				id: "7F2E5B6FD256D504"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "54C055679014A5AB"
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
@@ -184,6 +260,11 @@
 		{
 			dependencies: ["2CEDD97F9E5238A7"]
 			id: "3C441932206AB513"
+			rewards: [{
+				id: "3195034C6AB74FDA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "7A7660D1F941A8FB"
 				item: { count: 1, id: "minecraft:netherite_pickaxe" }
@@ -195,6 +276,11 @@
 		{
 			dependencies: ["41C80DCF710A22E9"]
 			id: "4640A078894323E3"
+			rewards: [{
+				id: "4A36CAD97E90655E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					id: "458A3BC21F8A0DA4"
@@ -213,6 +299,11 @@
 		{
 			dependencies: ["109E696C36981931"]
 			id: "0DF19818A82C032F"
+			rewards: [{
+				id: "182B0490A2D8156B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "4F26C46E0DF4F65E"
@@ -224,6 +315,11 @@
 		{
 			dependencies: ["2E7F3D6DFC85B825"]
 			id: "18642ECFEC2B6BFA"
+			rewards: [{
+				id: "66BCF1F46DD58CA1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "3E425B75338B422E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:scrap_diamond_large)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -235,6 +331,11 @@
 		{
 			dependencies: ["62D3939696AA31C7"]
 			id: "44636B13368CCCFD"
+			rewards: [{
+				id: "0D3737241A637956"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "09D429457EB0EDF4"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_helmet)item(minecraft:iron_chestplate)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -246,6 +347,11 @@
 		{
 			dependencies: ["4640A078894323E3"]
 			id: "109E696C36981931"
+			rewards: [{
+				id: "1158BB69BC6953FB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "249BC07192B93CF9"
 				item: { count: 1, id: "minecraft:ender_eye" }
@@ -260,6 +366,11 @@
 				"4FFB7F5D96891A93"
 			]
 			id: "2CEDD97F9E5238A7"
+			rewards: [{
+				id: "3B9C42C47BF7B1D4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "2B2F9DD755A2EFDC"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -271,6 +382,11 @@
 		{
 			dependencies: ["0DF19818A82C032F"]
 			id: "1F71F0637BD2EB91"
+			rewards: [{
+				id: "4C70C199A10DC0C5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				advancement: "minecraft:end/dragon_egg"
 				criterion: ""
@@ -286,6 +402,11 @@
 		{
 			dependencies: ["47DA1AF165E6E9E2"]
 			id: "52461182BD107A7B"
+			rewards: [{
+				id: "094A9604C6807FD5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "3CCC767F2149945C"
 				item: { count: 1, id: "create:andesite_alloy" }
@@ -296,6 +417,11 @@
 		}
 		{
 			id: "47DA1AF165E6E9E2"
+			rewards: [{
+				id: "30A6FBC95E566131"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					id: "102FCB2DCF6EA0E4"
@@ -317,6 +443,11 @@
 				id: "create:wrench"
 			}
 			id: "6BC44C3F82AB9466"
+			rewards: [{
+				id: "291FFB87A8BBEECC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "486F70EF4BCFBE20"
 				type: "checkmark"
@@ -325,7 +456,13 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["41C80DCF710A22E9"]
 			id: "5CF8017DC8A94B18"
+			rewards: [{
+				id: "431B4DB80EC8FEE5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "642F0A2CF125941F"
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
@@ -335,15 +472,56 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["5CF8017DC8A94B18"]
 			id: "471640B16C341677"
+			rewards: [{
+				id: "0DBE828C48B26969"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
-				custom_name: "wither"
-				entity: "minecraft:zombie"
+				entity: "minecraft:wither"
 				id: "174F4F9358AD98D4"
 				type: "kill"
 				value: 1L
 			}]
 			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CC0EB772BDA09D4"]
+			id: "339E8DE4C56A7559"
+			optional: true
+			rewards: [{
+				id: "6DBE16A22EE1D536"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3C6F3549CBAE21B1"
+				item: { count: 1, id: "dankstorage:dank_1" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["471640B16C341677"]
+			id: "0AD81FAEB2960954"
+			rewards: [{
+				id: "6B296407A8918B68"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B213FA4F1DAEC3A"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: -7.0d
 		}
 	]

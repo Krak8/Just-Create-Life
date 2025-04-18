@@ -133,32 +133,32 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:skeleton": true
-			"minecraft:spider": true
-			"aquaculture:atlantic_herring": false
-			"minecraft:cow": true
-			"minecraft:slime": true
-			"aquaculture:brown_trout": false
-			"minecraft:squid": true
 			"minecraft:bat": true
-			"minecraft:sheep": true
-			"aquaculture:perch": false
-			"minecraft:axolotl": true
-			"minecraft:cod": false
-			"minecraft:chicken": true
-			"minecraft:creeper": true
-			"aquaculture:minnow": false
 			"aquaculture:tuna": false
-			"aquaculture:gar": false
-			"minecraft:salmon": false
-			"aquaculture:pacific_halibut": false
-			"minecraft:zombie_villager": true
-			"minecraft:pig": true
-			"aquaculture:bluegill": false
-			"minecraft:enderman": true
-			"minecraft:zombie": true
-			"minecraft:witch": true
+			"aquaculture:perch": false
 			"minecraft:glow_squid": true
+			"minecraft:slime": true
+			"minecraft:cod": false
+			"minecraft:zombie_villager": true
+			"aquaculture:minnow": false
+			"aquaculture:brown_trout": false
+			"minecraft:chicken": true
+			"minecraft:witch": true
+			"aquaculture:gar": false
+			"minecraft:pig": true
+			"minecraft:spider": true
+			"minecraft:zombie": true
+			"minecraft:cow": true
+			"aquaculture:pacific_halibut": false
+			"minecraft:squid": true
+			"minecraft:enderman": true
+			"minecraft:sheep": true
+			"minecraft:salmon": false
+			"aquaculture:bluegill": false
+			"minecraft:skeleton": true
+			"aquaculture:atlantic_herring": false
+			"minecraft:axolotl": true
+			"minecraft:creeper": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
