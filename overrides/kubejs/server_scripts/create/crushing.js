@@ -23,5 +23,6 @@ ServerEvents.recipes(jcl => {
             { chance: 0.70, id: 'garnished:brittle_dust' }
         ]
     })
-    console.info('JCL: Crushing.js has been loaded.')
+    
+    console.info('JCL: Create Crushing Recipes has been loaded.')
 })

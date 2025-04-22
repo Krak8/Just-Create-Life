@@ -11,6 +11,7 @@
 	quest.00D211B94FFF3831.title: "Automating Saw"
 	quest.022202308030D30E.title: "Back bone"
 	quest.02EE4A2DC3EED255.title: "StoneAge"
+	quest.056403C4D295163F.title: "Control Speed"
 	quest.0CC0EB772BDA09D4.title: "Fuel the Smelt"
 	quest.0DF19818A82C032F.title: "The End? not really..."
 	quest.0F8EDF2033D8004D.quest_desc: [
@@ -19,6 +20,7 @@
 	]
 	quest.0F8EDF2033D8004D.title: "Danks"
 	quest.109E696C36981931.title: "Key To The End"
+	quest.10CD122EA77D6E73.title: "Bulk Blasting"
 	quest.141FEE8B3CD3D9A8.title: "Chop that tree"
 	quest.160016CB35CEEF5F.title: "Crafting Begins"
 	quest.18642ECFEC2B6BFA.title: "Shiny Armour"
@@ -44,6 +46,7 @@
 	quest.293964761A54C2CF.quest_desc: ["You can make backpack and travel in style"]
 	quest.293964761A54C2CF.title: "Tired of small Inventory?"
 	quest.2E7F3D6DFC85B825.title: "What Is This Shiny Thing?"
+	quest.2F5866DAB9FDFEE1.title: "Bulk Washing"
 	quest.30D0AE2A4A62AFCB.title: "Effeciency"
 	quest.30DB30A394467596.quest_desc: ["This isn't a digital storage but it acts very similar to one. You can access your storage from anywhere in the world if you have a full size beacon. "]
 	quest.30DB30A394467596.title: "Digital Storage?"
@@ -58,6 +61,7 @@
 	quest.3C441932206AB513.title: "The best of the best"
 	quest.3CA70E5EA637AA76.title: "Alloys"
 	quest.3D0B16ACF16D46D4.title: "Mine my way"
+	quest.40B48F6C026DA8DC.title: "Bulk Smoking"
 	quest.41C80DCF710A22E9.title: "The Nether"
 	quest.42BEA22DB24832DD.title: "DiamondAge"
 	quest.44636B13368CCCFD.title: "Iron Armour"
@@ -80,6 +84,7 @@
 	quest.52F0964CB6BD4A94.title: "Feeling Lazy?"
 	quest.55DBA667567BD941.title: "Shiny Pickaxe"
 	quest.569EB0A16BE64797.title: "Begining of technology"
+	quest.5A3A057189E2816D.title: "Bulk Haunting"
 	quest.61C85D4EE0ECE42E.title: "Craft On The Go"
 	quest.62D3939696AA31C7.title: "Iron Age"
 	quest.67B317E6A9CEA60D.title: "We go Mining"
