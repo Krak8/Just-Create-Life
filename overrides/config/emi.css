@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative-plus-registered;
+	index-source: creative;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -88,7 +88,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: false;
+	center-search-bar: true;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -420,7 +420,7 @@
 	/**
 	 * Cheat in a stack of an item into the cursor.
 	 */
-	cheat-stack-to-cursor: "ctrl shift key.mouse.middle";
+	cheat-stack-to-cursor: "key.keyboard.unknown";
 
 	/**
 	 * Delete the stack in the cursor when hovering the index

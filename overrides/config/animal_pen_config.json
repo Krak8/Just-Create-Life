@@ -260,11 +260,11 @@
   // List of drop limits for items when player harvests items.
   // <item> : <drop_limit>.
   "drop_limits": {
-    "minecraft:white_wool": 320,
-    "minecraft:pearlescent_froglight": 320,
-    "minecraft:egg": 80,
-    "minecraft:turtle_egg": 320,
-    "minecraft:torchflower_seeds": 320
+    "minecraft:white_wool": 640,
+    "minecraft:pearlescent_froglight": 640,
+    "minecraft:egg": 320,
+    "minecraft:turtle_egg": 640,
+    "minecraft:torchflower_seeds": 640
   },
   // Allows to set maximal amount of animals in the pen.
   // Setting 0 will remove any limit.

@@ -15,10 +15,10 @@
 	#.
 	#.
 	#Allow the Mechanical Press to process entire stacks at a time.
-	bulkPressing = true
+	bulkPressing = false
 	#.
 	#Allow the Mechanical Saw to process entire stacks at a time.
-	bulkCutting = true
+	bulkCutting = false
 	#.
 	#Allow supported potions to be brewed by a Mechanical Mixer + Basin.
 	allowBrewingInMixer = true
@@ -194,7 +194,7 @@
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "UNMOVABLE"
+		movableSpawners = "NO_PICKUP"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -374,7 +374,7 @@
 	hosePulleyBlockThreshold = 10000
 	#.
 	#Whether hose pulleys should continue filling up above-threshold sources.
-	fillInfinite = true
+	fillInfinite = false
 	#.
 	#Configure which fluids can be drained infinitely.
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG

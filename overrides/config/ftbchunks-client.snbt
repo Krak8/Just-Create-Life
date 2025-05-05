@@ -132,34 +132,7 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: {
-			"minecraft:zombie": true
-			"aquaculture:pacific_halibut": false
-			"minecraft:skeleton": true
-			"aquaculture:atlantic_herring": false
-			"aquaculture:minnow": false
-			"aquaculture:gar": false
-			"minecraft:sheep": true
-			"minecraft:cod": false
-			"aquaculture:perch": false
-			"minecraft:slime": true
-			"minecraft:spider": true
-			"minecraft:glow_squid": true
-			"minecraft:witch": true
-			"aquaculture:brown_trout": false
-			"minecraft:salmon": false
-			"minecraft:squid": true
-			"minecraft:axolotl": true
-			"minecraft:zombie_villager": true
-			"minecraft:enderman": true
-			"aquaculture:tuna": false
-			"minecraft:bat": true
-			"minecraft:creeper": true
-			"minecraft:pig": true
-			"minecraft:chicken": true
-			"minecraft:cow": true
-			"aquaculture:bluegill": false
-		}
+		entity_icon: { }
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
@@ -278,11 +251,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: false
+		death_waypoints: true
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: false
+		in_world_waypoints: true
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0
