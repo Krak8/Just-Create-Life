@@ -22,7 +22,7 @@
         // 0 means that there is no cooldown limitation.
         // Negative animal_increment makes this act as lowest limit.
         // Values in game ticks.
-        "cooldown_limit": 6000
+        "cooldown_limit": 3000
       }
     ],
     "minecraft:shears": [
@@ -42,7 +42,7 @@
         // 0 means that there is no cooldown limitation.
         // Negative animal_increment makes this act as lowest limit.
         // Values in game ticks.
-        "cooldown_limit": 6000
+        "cooldown_limit": 3000
       }
     ],
     "minecraft:brush": [

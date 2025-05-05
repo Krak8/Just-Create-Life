@@ -226,7 +226,7 @@
 		#.
 		#Whether the players hitbox should be expanded to the size of the contraption hitbox.
 		#[Technical]
-		syncPlayerPickupHitboxWithContraptionHitbox = false
+		syncPlayerPickupHitboxWithContraptionHitbox = true
 
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
@@ -374,11 +374,11 @@
 	hosePulleyBlockThreshold = 10000
 	#.
 	#Whether hose pulleys should continue filling up above-threshold sources.
-	fillInfinite = false
+	fillInfinite = true
 	#.
 	#Configure which fluids can be drained infinitely.
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
-	bottomlessFluidMode = "ALLOW_BY_TAG"
+	bottomlessFluidMode = "ALLOW_ALL"
 	#.
 	#Whether hose pulleys should be allowed to place fluid sources.
 	fluidFillPlaceFluidSourceBlocks = true
@@ -461,7 +461,7 @@
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 1024
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -481,12 +481,12 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 10
+		schematicannonDelay = 5
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
 		# Range: > 1
-		schematicannonShotsPerGunpowder = 400
+		schematicannonShotsPerGunpowder = 800
 
 #.
 #Equipment and gadgets added by Create
@@ -506,7 +506,7 @@
 	#The Maximum Distance at which a Toolbox can interact with Players' Inventories.
 	# Default: 10
 	# Range: > 1
-	toolboxRange = 10
+	toolboxRange = 30
 	#.
 	#The Maximum volume of Air that can be stored in a backtank = Seconds of underwater breathing
 	# Default: 900
@@ -539,7 +539,7 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
@@ -564,19 +564,19 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 35.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 16.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 4.0
 
 	#.
 	#Powered Trains
@@ -586,16 +586,16 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 60.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 30.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 3.0
+		poweredTrainAcceleration = 5.0

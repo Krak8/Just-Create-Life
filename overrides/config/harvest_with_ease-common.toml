@@ -32,7 +32,7 @@
 	# Range: > 0
 	"exp on harvest" = 0
 	# Whether to gather drops near the player when harvesting.
-	"gather drops" = false
+	"gather drops" = true
 
 #Multi-harvest settings
 [multiharvest]

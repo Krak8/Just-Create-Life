@@ -13,8 +13,8 @@
 	#Set line width (thickness). [Default: 2]
 	# Default: 2.0
 	# Range: 1.0 ~ 16.0
-	lineWidth = 2.0
+	lineWidth = 5.0
 	#Set line width when further away (thickness). [Default: 2]
 	# Default: 2
 	# Range: 1 ~ 16
-	lineWidthMax = 2
+	lineWidthMax = 5
