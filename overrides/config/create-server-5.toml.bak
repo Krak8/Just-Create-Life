@@ -226,7 +226,7 @@
 		#.
 		#Whether the players hitbox should be expanded to the size of the contraption hitbox.
 		#[Technical]
-		syncPlayerPickupHitboxWithContraptionHitbox = false
+		syncPlayerPickupHitboxWithContraptionHitbox = true
 
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
@@ -404,7 +404,7 @@
 	#Maximum distance in blocks a Mechanical Arm can reach across.
 	# Default: 5
 	# Range: > 1
-	mechanicalArmRange = 10
+	mechanicalArmRange = 5
 	#.
 	#Maximum distance in blocks a Package Port can be placed at from its target.
 	# Default: 5
@@ -419,7 +419,7 @@
 	#Maximum possible distance in blocks between display links and their target.
 	# Default: 64
 	# Range: > 1
-	displayLinkRange = 512
+	displayLinkRange = 256
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	# Default: 20
@@ -461,7 +461,7 @@
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 2560
+	maxTotalSchematicSize = 1024
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -481,12 +481,12 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 3
+		schematicannonDelay = 
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
 		# Range: > 1
-		schematicannonShotsPerGunpowder = 500
+		schematicannonShotsPerGunpowder = 800
 
 #.
 #Equipment and gadgets added by Create
@@ -496,7 +496,7 @@
 	#The Maximum Distance to an active mirror for the symmetry wand to trigger.
 	# Default: 50
 	# Range: > 10
-	maxSymmetryWandRange = 70
+	maxSymmetryWandRange = 50
 	#.
 	#The Maximum Distance a Block placed by Create's placement assist will have to its interaction point.
 	# Default: 12
@@ -506,7 +506,7 @@
 	#The Maximum Distance at which a Toolbox can interact with Players' Inventories.
 	# Default: 10
 	# Range: > 1
-	toolboxRange = 64
+	toolboxRange = 30
 	#.
 	#The Maximum volume of Air that can be stored in a backtank = Seconds of underwater breathing
 	# Default: 900
@@ -554,7 +554,7 @@
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
 	# Range: 0.0 ~ 3.4028234663852886E38
-	manualTrainSpeedModifier = 1.5
+	manualTrainSpeedModifier = 0.75
 
 	#.
 	#Standard Trains
@@ -570,13 +570,13 @@
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 16.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 4.0
 
 	#.
 	#Powered Trains

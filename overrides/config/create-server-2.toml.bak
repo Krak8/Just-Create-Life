@@ -68,17 +68,17 @@
 	#Maximum length in blocks of mechanical belts.
 	# Default: 20
 	# Range: > 5
-	maxBeltLength = 32
+	maxBeltLength = 20
 	#.
 	#Maximum length in blocks of chain conveyor connections.
 	# Default: 32
 	# Range: > 5
-	maxChainConveyorLength = 128
+	maxChainConveyorLength = 32
 	#.
 	#Maximum amount of connections each chain conveyor can have.
 	# Default: 4
 	# Range: > 1
-	maxChainConveyorConnections = 8
+	maxChainConveyorConnections = 4
 	#.
 	#Damage dealt by active Crushing Wheels.
 	# Default: 4
@@ -118,7 +118,7 @@
 	#Max Distance in blocks a Weighted Ejector can throw
 	# Default: 32
 	# Range: > 0
-	maxEjectorDistance = 64
+	maxEjectorDistance = 32
 	#.
 	#Time in ticks until the next item launched by an ejector scans blocks for potential collisions
 	# Default: 120
@@ -374,11 +374,11 @@
 	hosePulleyBlockThreshold = 10000
 	#.
 	#Whether hose pulleys should continue filling up above-threshold sources.
-	fillInfinite = true
+	fillInfinite = false
 	#.
 	#Configure which fluids can be drained infinitely.
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
-	bottomlessFluidMode = "ALLOW_ALL"
+	bottomlessFluidMode = "ALLOW_BY_TAG"
 	#.
 	#Whether hose pulleys should be allowed to place fluid sources.
 	fluidFillPlaceFluidSourceBlocks = true
@@ -394,7 +394,7 @@
 	#The amount of ticks a funnel waits between item transferrals, when it is not re-activated by redstone.
 	# Default: 8
 	# Range: > 1
-	defaultExtractionTimer = 1
+	defaultExtractionTimer = 8
 	#.
 	#The amount of ticks a portable storage interface waits for transfers until letting contraptions move along.
 	# Default: 60
@@ -404,22 +404,22 @@
 	#Maximum distance in blocks a Mechanical Arm can reach across.
 	# Default: 5
 	# Range: > 1
-	mechanicalArmRange = 10
+	mechanicalArmRange = 5
 	#.
 	#Maximum distance in blocks a Package Port can be placed at from its target.
 	# Default: 5
 	# Range: > 1
-	packagePortRange = 32
+	packagePortRange = 5
 	#.
 	#Maximum possible range in blocks of redstone link connections.
 	# Default: 256
 	# Range: > 1
-	linkRange = 512
+	linkRange = 256
 	#.
 	#Maximum possible distance in blocks between display links and their target.
 	# Default: 64
 	# Range: > 1
-	displayLinkRange = 512
+	displayLinkRange = 64
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	# Default: 20
@@ -429,12 +429,12 @@
 	#The amount of packages a chain conveyor can carry at a time.
 	# Default: 20
 	# Range: > 1
-	chainConveyorCapacity = 40
+	chainConveyorCapacity = 20
 	#.
 	#The amount of ticks a brass tunnel waits between distributions.
 	# Default: 10
 	# Range: 1 ~ 10
-	brassTunnelTimer = 1
+	brassTunnelTimer = 10
 	#.
 	#The amount of ticks a factory gauge waits between requests.
 	# Default: 100
@@ -461,7 +461,7 @@
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 2560
+	maxTotalSchematicSize = 256
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -481,7 +481,7 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 3
+		schematicannonDelay = 2
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
@@ -496,7 +496,7 @@
 	#The Maximum Distance to an active mirror for the symmetry wand to trigger.
 	# Default: 50
 	# Range: > 10
-	maxSymmetryWandRange = 70
+	maxSymmetryWandRange = 50
 	#.
 	#The Maximum Distance a Block placed by Create's placement assist will have to its interaction point.
 	# Default: 12
@@ -554,7 +554,7 @@
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
 	# Range: 0.0 ~ 3.4028234663852886E38
-	manualTrainSpeedModifier = 1.5
+	manualTrainSpeedModifier = 1.
 
 	#.
 	#Standard Trains
@@ -564,7 +564,7 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 35.0
+		trainTopSpeed = 28.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
@@ -586,16 +586,16 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 60.0
+		poweredTrainTopSpeed = 40.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 30.0
+		poweredTrainTurningTopSpeed = 20.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 5.0
+		poweredTrainAcceleration = 3.0
