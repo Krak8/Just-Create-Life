@@ -1,0 +1,28 @@
+{
+	id: "08D6FC41EB514A13"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "58C3BC289D575DCC", item: { count: 1, id: "dankstorage:dank_7" } }
+		{ id: "461D287EBA854BFB", item: { count: 1, id: "dankstorage:dank_6" } }
+		{ id: "3E58E7C3232D4023", item: { count: 1, id: "minecraft:nether_star" } }
+		{
+			count: 8
+			id: "74365998D32A15B4"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+		}
+		{
+			count: 16
+			id: "70B2909EC67CE602"
+			item: {
+				count: 1
+				id: "create:brass_block"
+			}
+		}
+		{ id: "298230B6E0A5391E", item: { count: 1, id: "handcrafted:wither_skeleton_trophy" } }
+		{ id: "0D7CC91298170EF3", item: { count: 1, id: "minecraft:beacon" } }
+	]
+}

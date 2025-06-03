@@ -1,10 +1,10 @@
 [air]
-	# Default: 2048
+	# Default: 450
 	# Range: > 1
-	uses_per_tank = 2048
-	# Default: 20480
+	seconds_per_tank = 450
+	# Default: 900
 	# Range: > 1
-	uses_per_tank_hover = 20480
+	seconds_per_tank_hover = 900
 
 [speed]
 	# Default: 0.02

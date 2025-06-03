@@ -5,6 +5,14 @@
 	filename: "tips__tricks"
 	group: "54C92129FED0A060"
 	id: "35735F45599CDD1F"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:block/barrier_open"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -215,6 +223,26 @@
 			]
 			x: 2.5d
 			y: -2.5d
+		}
+		{
+			id: "6EA3559B4DFD08C3"
+			tasks: [{
+				id: "3E7D8C03FF995C3E"
+				item: { count: 1, id: "angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3D77BF3EA7A82F61"
+			tasks: [{
+				id: "7AAEEB7D8891F835"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
 		}
 	]
 }

@@ -1,8 +1,12 @@
 {
 	chapter.1DC8617C5918F545.title: "Where do we begin?"
+	chapter.331D77EA877F3780.chapter_subtitle: ["Mining companion"]
+	chapter.331D77EA877F3780.title: "Danks"
 	chapter.35735F45599CDD1F.title: "Tips \\& Tricks"
 	chapter.45A8C40C2EB5281B.title: "Welcome"
 	chapter.4649FDCBE7D871EF.title: "Create"
+	chapter.59E2DABA2DEDEA71.chapter_subtitle: ["Better than you think"]
+	chapter.59E2DABA2DEDEA71.title: "Sophisticated Storage"
 	chapter_group.0E5774935EA28B4E.title: "Logistics"
 	chapter_group.54C92129FED0A060.title: "Getting Started"
 	chapter_group.56FF6348CB632982.title: "Create"
@@ -45,6 +49,19 @@
 	]
 	quest.293964761A54C2CF.quest_desc: ["You can make backpack and travel in style"]
 	quest.293964761A54C2CF.title: "Tired of small Inventory?"
+	quest.295C7E072842E6CD.quest_desc: [
+		"Slots              : 81"
+		"Stacks per slot : 2147483647"
+	]
+	quest.29B9CB8CCE63B164.quest_desc: [
+		"This modpack comes pre-loaded with a curated collection of &aResource-Packs&r and &aShaders&r, each designed to elevate the beauty of your game world. With these enhancements, you'll experience dramatically improved graphics and refined aesthetics that transform gameplay into a breathtaking journey. Simply access the tweaks menu and enable these features to unlock a stunning new dimension in your Minecraft experience."
+		""
+		"&oWhat visual marvels will you uncover next?&r"
+	]
+	quest.2C98194B7BCC64E1.quest_desc: [
+		"Slots              : 9"
+		"Stacks per slot : 256"
+	]
 	quest.2E7F3D6DFC85B825.title: "What Is This Shiny Thing?"
 	quest.2F5866DAB9FDFEE1.title: "Bulk Washing"
 	quest.30D0AE2A4A62AFCB.title: "Effeciency"
@@ -58,9 +75,24 @@
 	quest.3900F7E86F80D42F.quest_desc: ["Prepare to embark on an extraordinary journey through a world of gears, contraptions, and endless possibilities. Whether you're designing intricate automation systems, constructing majestic factories, or experimenting with mechanical marvels, there's something here for every aspiring inventor."]
 	quest.3900F7E86F80D42F.quest_subtitle: "Welcome to JustCreateLife"
 	quest.3900F7E86F80D42F.title: "Journey Begins ..."
+	quest.3926C7C689A67E13.quest_desc: [
+		"Slots              : 18"
+		"Stacks per slot : 1024"
+	]
+	quest.3B889220310D595A.quest_desc: [
+		"Slots              : 27"
+		"Stacks per slot : 4096"
+	]
 	quest.3C441932206AB513.title: "The best of the best"
+	quest.3C449775FDF67179.quest_desc: [
+		"Slots              : 36"
+		"Stacks per slot : 16384"
+	]
 	quest.3CA70E5EA637AA76.title: "Alloys"
 	quest.3D0B16ACF16D46D4.title: "Mine my way"
+	quest.3D77BF3EA7A82F61.quest_desc: ["&eChisel&r A versatile tool that unlocks endless creative possibilities by allowing you to transform ordinary blocks into a vast range of decorative variants. Use the chisel to effortlessly cycle through different textures and designs—making every build uniquely yours and elevating the art of construction in your Minecraft world."]
+	quest.3D77BF3EA7A82F61.title: "Building Blocks?"
+	quest.3EF830A0ED0AF5D5.quest_desc: ["Superglue Meet the sticky solution that's always ready to lend a hand—Superglue! This ingenious tool from the Create mod makes sure your blocks never split hairs, or rather, split apart. Just keep a tube in your offhand and watch as every block you place immediately bonds together, sticking like they're best buds. It’s the ultimate fix for a sticky situation in your builds—no more pieces falling out of line, because with Superglue, you're always stuck on perfection!"]
 	quest.40B48F6C026DA8DC.title: "Bulk Smoking"
 	quest.41C80DCF710A22E9.title: "The Nether"
 	quest.42BEA22DB24832DD.title: "DiamondAge"
@@ -82,23 +114,60 @@
 	quest.52461182BD107A7B.title: "Backbone For Create"
 	quest.52F0964CB6BD4A94.quest_desc: ["You can sleep in bags and sleep on floating hammock now?"]
 	quest.52F0964CB6BD4A94.title: "Feeling Lazy?"
+	quest.54D1EEC51F1AE8A5.quest_desc: ["Combine dough and lime dye to get slime"]
+	quest.55218EC645B8D214.quest_desc: [
+		"Dank's got you coverd!"
+		""
+		"Dank Storage Dank Storage packs your game with tiered containers that aren’t your average chests. These danks come in seven hilarious tiers—each one holding way more than a standard stack, so your prized loot can chill in style. Whether you're hauling treasures or just keeping your items on fleek, these containers are the ultimate way to flex your organizational game!"
+	]
 	quest.55DBA667567BD941.title: "Shiny Pickaxe"
 	quest.569EB0A16BE64797.title: "Begining of technology"
 	quest.5A3A057189E2816D.title: "Bulk Haunting"
 	quest.61C85D4EE0ECE42E.title: "Craft On The Go"
 	quest.62D3939696AA31C7.title: "Iron Age"
 	quest.67B317E6A9CEA60D.title: "We go Mining"
+	quest.69AD17669A01C30B.quest_desc: [
+		"Slots              : 54"
+		"Stacks per slot : 262144"
+	]
 	quest.6BC44C3F82AB9466.title: "Starting Create"
+	quest.6EA3559B4DFD08C3.quest_desc: [
+		"&l&eAngel Ring&r A mystical accessory that grants you creative flight. Simply double-tap the jump key to soar above obstacles, and enjoy your aerial adventures."
+		""
+		"It doesn't consume any fuel!"
+	]
+	quest.6EA3559B4DFD08C3.quest_subtitle: "&rTierd of scaffolding?"
+	quest.6EA3559B4DFD08C3.title: "Fly High"
+	quest.739E342418757280.quest_desc: [
+		" Create 6.0.0 was released on February 28, 2025, marking an important milestone in the evolution of the mod. In this update, the core engine now leverages Flywheel 1.0, a change that promises smoother performance and improved visual fidelity throughout the mechanical systems. The update is geared toward players who crave deeper automation, intricacy in design, and more refined control over their contraptions—keeping the underlying spirit of creativity and engineering at the forefront."
+		""
+		"&l&9New Additions and Mechanical Components&r"
+		"One of the most significant aspects of Create 6.0.0 is the array of new components:"
+		""
+		"&l&bEnhanced Conveyance \\& Packaging&r&r: A completely new chain conveyor system has been introduced for more nuanced item transport. Additional blocks like the item hatch, packager, re-packager, and a set of cardboard-based components (including cardboard packages, a cardboard armor set, cardboard sword, and even a cardboard block) dramatically expand your building palette. These innovations not only open up creative avenues for packaging and transporting items but also add a layer of whimsical design to your contraptions."
+		""
+		"&l&bUtility and Interaction Blocks&r&r: Beyond packaging, the update brings new interactable elements such as the package frogport, package postbox, stock link, stock ticker, and redstone requester. These blocks integrate more deeply with the mod’s logistics components and redstone systems, ensuring that automation isn’t just a set of isolated mechanics but a cohesive system that reacts and adapts to player-driven challenges. Additional devices like the factory gauge, table cloths and covers, pulse timer, and desk bell further enrich the available machinery and sensory feedback within gameplay"
+	]
+	quest.739E342418757280.quest_subtitle: "&l&9Release Overview&r&r"
+	quest.739E342418757280.title: "Journey in Create"
 	quest.744ACDF3F8C7FA53.quest_desc: ["We have tiered storage now?"]
 	quest.744ACDF3F8C7FA53.title: "Big Boy Storage?"
 	quest.750AC64D40744F49.title: "BONK"
 	quest.757CF5007C6244B1.title: "Generating Stress and Rotation"
 	quest.76D9D1564A68A855.title: "ZyncAge"
+	quest.7B61365379B6C78D.quest_desc: [
+		"Slots              : 45"
+		"Stacks per slot : 65536"
+	]
+	reward_table.08D6FC41EB514A13.title: "Danks"
+	reward_table.131EF71DBE0043C4.title: "Create"
 	task.01CE7EAFE862C49A.title: "Any #minecraft:logs"
+	task.046A3F7DE17E1FF1.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
 	task.09D429457EB0EDF4.title: "Any #create:scrap_iron_large"
 	task.102FCB2DCF6EA0E4.title: "Any #c:nuggets/zinc"
 	task.1AA7DA9601A6027F.title: "Any #create:scrap_andesite_shaft_and_wood"
 	task.1B9DA2BC94CD31A5.title: "Any #sophisticatedstorage:all_storage"
+	task.204FB0A026A62ECC.title: "Does looks matter?"
 	task.28A416EC3E00D41A.title: "Any #forge:coals"
 	task.2E176630A07ABC76.title: "Start The Journey"
 	task.3515F3C0B026FF3B.title: "Tips/Tricks"
@@ -112,6 +181,7 @@
 	task.571FE44FC88E7AF4.title: "Any #c:player_workstations/furnaces"
 	task.5C862D4D76F5B499.title: "Any #c:stripped_logs"
 	task.61C135BB7220BE31.title: "Any #create:crushed_raw_materials"
+	task.61C33409EBD46BAD.title: "Messy Inventory?"
 	task.632DD25779B92389.title: "Any #create:scrap_andesite_shaft_and_wood"
 	task.70903514C2E796D0.title: "Any #c:player_workstations/crafting_tables"
 	task.7094F84775EED179.title: "Any #c:nuggets/coal"

@@ -9,13 +9,48 @@
 	id: "45A8C40C2EB5281B"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "2930B53DAE3E96F3"
-		tasks: [{
-			id: "396F84951BCBC0A6"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "2930B53DAE3E96F3"
+			rewards: [{
+				id: "354D8F280E886D64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "396F84951BCBC0A6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "739E342418757280"
+			rewards: [{
+				id: "3FDF1EC40484C566"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1CAF4F380909ADE5"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "29B9CB8CCE63B164"
+			rewards: [{
+				id: "720E197B36D37C2C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "204FB0A026A62ECC"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+	]
 }

@@ -1,0 +1,202 @@
+{
+	id: "131EF71DBE0043C4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "491ADD37DA280B73"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 16
+			id: "55A3DA58CF7D940A"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 16
+			id: "10674243BE69BC31"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 16
+			id: "4DFB6304035BC077"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 16
+			id: "6CB9DD8A99F01FB0"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 16
+			id: "3651940178A6D9F0"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+		{
+			count: 16
+			id: "1E4748FF415FB22D"
+			item: {
+				count: 1
+				id: "create:copper_casing"
+			}
+		}
+		{ id: "06852A31521EAFB6", item: { count: 1, id: "create:mechanical_mixer" } }
+		{
+			count: 2
+			id: "0D8CFAFCE219F39E"
+			item: {
+				count: 1
+				id: "create:crushing_wheel"
+			}
+		}
+		{
+			count: 16
+			id: "14FCC8C92FEB8DFF"
+			item: {
+				count: 1
+				id: "create:water_wheel"
+			}
+		}
+		{
+			count: 16
+			id: "6A36AA12AD50D7A6"
+			item: {
+				count: 1
+				id: "create:large_water_wheel"
+			}
+		}
+		{
+			count: 18
+			id: "1E64D18AFB6901D1"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+		}
+		{
+			count: 16
+			id: "7A5CFA1CED233227"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 16
+			id: "34F569E4DE96B9A4"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{
+			count: 16
+			id: "1E41BC3685083A6E"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{ id: "2524968524A959B7", item: { count: 1, id: "create:white_seat" } }
+		{ id: "2F43D81FDC13A873", item: { count: 1, id: "create:wrench" } }
+		{
+			count: 2
+			id: "45CD922DE59DCFCD"
+			item: {
+				count: 1
+				id: "create_deep_dark:echo_cake"
+			}
+		}
+		{
+			count: 4
+			id: "0C02434D38BCA9BD"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+		}
+		{
+			count: 4
+			id: "3C8EFA6F6A84BE56"
+			item: {
+				count: 1
+				id: "create:rose_quartz_lamp"
+			}
+		}
+		{ id: "4AFEA8EF9C8DCF11", item: { count: 1, id: "create:mechanical_press" } }
+		{ id: "173CDE0C665C4585", item: { count: 1, id: "create:mechanical_harvester" } }
+		{
+			count: 4
+			id: "768342AF9E056AEE"
+			item: {
+				count: 1
+				id: "create:mechanical_pump"
+			}
+		}
+		{ id: "76C80155871A9F61", item: { count: 1, id: "create:precision_mechanism" } }
+		{ id: "4E1E21122B32FE95", item: { count: 1, id: "create:mechanical_saw" } }
+		{ id: "1FA92DAC7D5A43C7", item: { count: 1, id: "create:mechanical_drill" } }
+		{ id: "1D0C37D89FFFB957", item: { count: 1, id: "create_things_and_misc:vibration_mechanism" } }
+		{ id: "02CE03D92BFF5A76", item: { count: 1, id: "create:mechanical_arm" } }
+		{
+			count: 16
+			id: "4AB78D0FD3C6F3CA"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{ id: "1D9A30DA5C9D2662", item: { count: 1, id: "create:super_glue" } }
+		{
+			count: 32
+			id: "0F0DD8654E691D9E"
+			item: {
+				count: 1
+				id: "create:brass_scaffolding"
+			}
+		}
+		{
+			count: 32
+			id: "508EF9A607D129DD"
+			item: {
+				count: 1
+				id: "create:andesite_scaffolding"
+			}
+		}
+		{
+			count: 32
+			id: "7A31B36856103D0C"
+			item: {
+				count: 1
+				id: "create:copper_scaffolding"
+			}
+		}
+		{
+			count: 3
+			id: "691F341DAAE80358"
+			item: {
+				count: 1
+				id: "create:mechanical_crafter"
+			}
+		}
+	]
+}

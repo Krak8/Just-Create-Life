@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "5886E3DA249E8F0E"
+	icon: {
+		components: {
+			"sophisticatedstorage:wood_type": "acacia"
+		}
+		id: "sophisticatedstorage:diamond_chest"
+	}
+	id: "59E2DABA2DEDEA71"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [{
+		id: "35D502573FC81E16"
+		tasks: [{
+			id: "046A3F7DE17E1FF1"
+			item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
