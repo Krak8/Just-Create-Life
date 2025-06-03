@@ -117,6 +117,9 @@
   "waystones": {
     "waystone": true
   },
+  "mechanical_cow": {
+    "data": true
+  },
   "corpse": {
     "corpse": true
   },

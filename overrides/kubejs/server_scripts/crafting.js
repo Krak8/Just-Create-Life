@@ -13,6 +13,7 @@ ServerEvents.recipes(jcl => {
     jcl.shaped( Item.of ('explorerscompass:explorerscompass', 1), ['ASA','BCB','ABA'],{ A: 'minecraft:cobweb', B: 'minecraft:cracked_stone_bricks', C: 'minecraft:compass', S: 'create:precision_mechanism' } )
     jcl.shaped( Item.of ('petrolsparts:coaxial_gear', 4), [' A ','A A',' A '],{ A: '#minecraft:planks' } )
     jcl.shaped( Item.of ('petrolsparts:large_coaxial_gear', 4), [' A ','ABA',' A '],{ A: '#minecraft:planks', B: 'petrolsparts:coaxial_gear' } )
+    jcl.shaped( Item.of ('create_dragons_plus:blaze_upgrade_smithing_template',1), ['ABA','ACA','ADA'], {A: 'minecraft:netherite_ingot', B: 'minecraft:netherite_upgrade_smithing_template', C: 'minecraft:diamond_block', D: 'handcrafted:blaze_trophy'} )
 
 
     jcl.replaceInput({mod:'easy_villagers'}, 'minecraft:iron_ingot', 'create:brass_ingot')
